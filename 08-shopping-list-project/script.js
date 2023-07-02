@@ -96,3 +96,9 @@ clearBtn.addEventListener('click', clearItems);
 itemFilter.addEventListener('input', filterItems);
 
 checkUI();
+
+console.log(window);
+
+localStorage.setItem('name', 'brad');
+console.log(localStorage.getItem('name'));
+localStorage.clear();
