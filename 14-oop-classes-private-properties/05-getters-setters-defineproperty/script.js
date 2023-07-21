@@ -67,3 +67,5 @@ const person2 = Object.create(PersonObj);
 console.log(person2.firstName);
 console.log(person2.lastName);
 console.log(person2.fullName);
+
+const object1 = {};
