@@ -41,3 +41,12 @@ console.log(sym.toString());
 console.log(sym3.valueOf());
 
 console.log(Object.getOwnPropertyNames(String));
+
+class Cow {
+  constructor(name) {
+    this.name = name;
+    this.date = new Date();
+  }
+}
+
+const cow = new Cow('tora');
