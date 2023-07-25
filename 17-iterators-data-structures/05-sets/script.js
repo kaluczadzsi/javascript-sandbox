@@ -21,3 +21,7 @@ const iterator = set.values();
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
+
+set.clear();
+
+console.log(set);
