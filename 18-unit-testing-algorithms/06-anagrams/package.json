@@ -1,5 +1,5 @@
 {
-  "name": "algo-testing",
+  "name": "06-anagrams",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.4.0"
+  "dependencies": {
+    "jest": "^29.6.1"
   }
 }
